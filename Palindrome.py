@@ -6,7 +6,6 @@ text = input()
 text = text.lower()
 
 textWithoutSpace = text.replace(' ', '')
-invertedTextWithoutSpace = textWithoutSpace[::-1]
 
 textWithoutFormat = ""
 for char in textWithoutSpace:
